@@ -7,34 +7,16 @@ const defaultMeta = {
   title: 'Selenium Ninja',
   siteName: 'Selenium Ninja',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'Learn and practice selenium topics for free',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://selenium-ninja.vercel.app/',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
-  author: 'Lorem Ipsum'
+  image: 'https://selenium-ninja.vercel.app//assets/logo.svg',
+  author: 'Rohit Singh'
 };
-
-/**
- * Next Head component populated with necessary SEO tags and title
- * props field used:
- * - title
- * - siteName
- * - description
- * - url
- * - type
- * - robots
- * - image
- * - date
- * - author
- * - templateTitle
- * all field are optional (default value defined on defaultMeta)
- * @example
- * <SeoHead title="Page's Title" />
- */
 const SeoHead = (props) => {
   const router = useRouter();
   const meta = {
