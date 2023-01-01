@@ -1,0 +1,46 @@
+{
+  "selenium": [
+    {
+      "question": "What is Selenium?",
+      "answer": "Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms"
+    },
+    {
+      "question": "What is Selenium?",
+      "answer": "Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms"
+    },
+    {
+      "question": "What is Selenium?",
+      "answer": "Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms"
+    },
+    {
+      "question": "What is Selenium?",
+      "answer": "Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms"
+    },
+    {
+      "question": "What is Selenium?",
+      "answer": "Selenium is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms"
+    }
+  ],
+  "Java": [
+    {
+      "question": "What is Java?",
+      "answer": "Java is a high-level, class-based, object-oriented programming language."
+    },
+    {
+      "question": "What is Java?",
+      "answer": "Java is a high-level, class-based, object-oriented programming language."
+    },
+    {
+      "question": "What is Java?",
+      "answer": "Java is a high-level, class-based, object-oriented programming language."
+    },
+    {
+      "question": "What is Java?",
+      "answer": "Java is a high-level, class-based, object-oriented programming language."
+    },
+    {
+      "question": "What is Java?",
+      "answer": "Java is a high-level, class-based, object-oriented programming language."
+    }
+  ]
+}

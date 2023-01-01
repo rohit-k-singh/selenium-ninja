@@ -1,0 +1,27 @@
+{
+  "title": "Welcome to Selenium Ninja",
+  "channelLink": "https://www.youtube.com/@seleniumninja2138",
+  "subTitle": "Want to perform automation testing but have no programming knowledge? It was first really challenging for me to learn. You don't need to be concerned; I've got your back on this adventure. Learn automation from scratch with Java & Selenium. Selenium Ninja is my attempt to contribute to society in order to educate the new generation. Here we are in the era of automation testing.",
+  "stats": [
+    {
+      "label": "Total Videos",
+      "count": "48"
+    },
+    {
+      "label": "Subscribers",
+      "count": "500"
+    },
+    {
+      "label": "View Count",
+      "count": "12344"
+    }
+  ],
+  "trendingVideo": [
+    {
+      "title": "",
+      "url": "",
+      "description": "",
+      "tags": [""]
+    }
+  ]
+}
