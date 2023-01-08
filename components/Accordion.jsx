@@ -8,10 +8,10 @@ const Accordion = ({ data }) => {
     <div>
       {data?.map((ques, index) => (
         <div
-          className="flex flex-col transform duration-700 ease border border-gray-100 p-4"
+          className="flex flex-col px-4 py-2"
           onClick={() => setActiveIndex(activeIndex === index ? -1 : index)}
         >
-          <button className="py-6 box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between">
+          <button className="py-3 box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between">
             <p className="inline-block text-footnote light">{ques.question}</p>
             <FaAngleDown
               className={`transform duration-300 ease ${
@@ -24,7 +24,7 @@ const Accordion = ({ data }) => {
               initial={{ height: 0 }}
               animate={{
                 height: "auto",
-                transition: { duration: 0.09, type: "spring" },
+                transition: { duration: 0.3, type: "keyframes" },
               }}
               className="overflow-auto transition-max-height duration-700 ease-in-out"
             >
