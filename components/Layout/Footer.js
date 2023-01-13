@@ -12,10 +12,10 @@ const FLink = ({ label, url }) => {
 const Footer = () => {
   const socials = [{
     icon:
-      <Facebook className="h-6 w-6 " />, url: "https://www.facebook.com"
+      <Facebook className="h-6 w-6 " />, url: "https://www.facebook.com", label: 'facebook'
   },
-  { icon: <Twitter className="h-6 w-6 " />, url: "" },
-  { icon: <Instagram className="h-6 w-6 " />, url: "" }
+  { icon: <Twitter className="h-6 w-6 " />, url: "https://www.twitter.com", label: 'twitter' },
+  { icon: <Instagram className="h-6 w-6 " />, url: "https://www.instagram.com", label: 'instagram' }
   ]
   return (
     <div className="!bg-[#fFFfff] shadow-sm pt-44 pb-24">
@@ -27,7 +27,7 @@ const Footer = () => {
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             {socials?.map(social => (
-              <a href={social.url} target="_blank" className="mx-2 hover:shadow-orange-500 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+              <a href={social.url} target="_blank" aria-label={social.label} className="mx-2 hover:shadow-orange-500 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
                 {social.icon}
               </a>
             ))}

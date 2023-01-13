@@ -7,9 +7,9 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import homeData from '../Data/home.json';
 const Hero = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
-  const icons = ["/assets/Icon/heroicons_sm-user.svg",
-    "/assets/Icon/gridicons_location.svg",
-    "/assets/Icon/bx_bxs-server.svg",
+  const icons = [{ src: "/assets/Icon/heroicons_sm-user.svg", alt: "user icon" },
+  { src: "/assets/Icon/gridicons_location.svg", alt: 'location icon' },
+  { src: "/assets/Icon/bx_bxs-server.svg", alt: 'server icon' },
   ];
   return (
     <div
@@ -33,7 +33,7 @@ const Hero = () => {
               <Image
                 src="/assets/Illustration1.png"
                 alt="V selenium"
-                width={75}
+                width={80}
                 height={50}
                 layout="responsive"
               />
@@ -53,7 +53,7 @@ const Hero = () => {
             >
               <div className="flex mx-auto w-40 sm:w-auto">
                 <div className="flex items-center justify-center bg-orange-100 w-12 h-12 mr-6 rounded-full">
-                  <img src={icons[index]} className="h-6 w-6" />
+                  <img src={icons[index].src} alt={icons[index].alt} className="h-6 w-6" />
                 </div>
                 <div className="flex flex-col">
                   <p className="text-xl text-black-600 font-bold">

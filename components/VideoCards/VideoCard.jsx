@@ -13,10 +13,10 @@ const VideoCard = () => {
       <div className="p-2">
         <Image
           src="https://img.youtube.com/vi/bawxSnL-QiA/maxresdefault.jpg"
-          alt="Sunset in the mountains"
+          alt="selenium ninja video icon"
           layout="responsive"
           height={20}
-          width={30}
+          width={35}
         />
       </div>
       <div className="px-6 py-4">
